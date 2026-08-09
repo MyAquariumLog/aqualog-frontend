@@ -32,6 +32,10 @@ const MeasurementsPage = lazy(() =>
   import('./pages/MeasurementsPage').then((module) => ({ default: module.MeasurementsPage })),
 )
 
+const JournalPage = lazy(() =>
+  import('./pages/JournalPage').then((module) => ({ default: module.JournalPage })),
+)
+
 const ProfilePage = lazy(() =>
   import('./pages/ProfilePage').then((module) => ({ default: module.ProfilePage })),
 )
@@ -70,6 +74,7 @@ function AppRoutes() {
       <Route path="/aquariums" element={<AquariumsPage />} />
       <Route path="/aquariums/:id" element={<AquariumDetailPage />} />
       <Route path="/measurements" element={<MeasurementsPage />} />
+      <Route path="/journal" element={<JournalPage />} />
       <Route path="/profile" element={<ProfilePage />} />
       <Route path="*" element={<NotFoundPage />} />
     </Routes>

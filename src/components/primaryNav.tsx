@@ -59,6 +59,17 @@ export function IconMeasurements(props: IconProps) {
   )
 }
 
+export function IconJournal(props: IconProps) {
+  return (
+    <Icon {...props}>
+      <path d="M6 3.5h11a1.5 1.5 0 0 1 1.5 1.5v14.5H7.5A2.5 2.5 0 0 1 5 17V5.5A2 2 0 0 1 7 3.5" />
+      <path d="M6 3.5A2 2 0 0 0 4.5 5.5v11.75" />
+      <path d="M8.5 8h6" />
+      <path d="M8.5 11.5h6" />
+    </Icon>
+  )
+}
+
 export function IconProfile(props: IconProps) {
   return (
     <Icon {...props}>
@@ -85,5 +96,6 @@ export const PRIMARY_NAV_ITEMS: PrimaryNavItem[] = [
   { to: '/calculator', label: 'Calculator', icon: <IconCalculator /> },
   { to: '/aquariums', label: 'Aquariums', icon: <IconAquariums /> },
   { to: '/measurements', label: 'Measurements', icon: <IconMeasurements /> },
+  { to: '/journal', label: 'Journal', icon: <IconJournal /> },
   { to: '/profile', label: 'Profile', icon: <IconProfile /> },
 ]

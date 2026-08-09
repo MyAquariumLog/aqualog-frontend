@@ -1,3 +1,9 @@
+## v1.19.2 (2026-08-09)
+
+### Fix
+
+- allow manual trigger of workflow
+
 ## v1.19.1 (2026-08-09)
 
 ### Fix

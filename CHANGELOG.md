@@ -1,3 +1,14 @@
+## v1.19.3 (2026-08-09)
+
+### Fix
+
+- update eslint
+- bump @eslint/js from 9.39.5 to 10.0.1
+- bump package versions
+- bump eslint-plugin-react-hooks from 5.2.0 to 7.1.1
+- bump eslint from 9.39.5 to 10.8.0
+- bump pip from 26.1.2 to 26.2.1
+
 ## v1.19.2 (2026-08-09)
 
 ### Fix

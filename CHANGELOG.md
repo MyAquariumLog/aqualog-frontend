@@ -1,3 +1,9 @@
+## v1.20.0 (2026-08-09)
+
+### Feat
+
+- add journal capability
+
 ## v1.19.3 (2026-08-09)
 
 ### Fix
